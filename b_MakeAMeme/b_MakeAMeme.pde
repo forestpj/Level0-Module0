@@ -17,8 +17,8 @@ background(baby);
 
   // 5. Write the message "TESTED MY PROGRAM" at the top of the meme
   //    Use the text() command for this
-textSize(47.5);
-text("TESTED MY PROGRAM",0,50); 
+textSize(47);
+text("TESTED MY PROGRAM",1.5,50); 
   
   // 6. Now make the message bigger so that it fills the width of the sketch
   //    Use the textSize() command for this and put it BEFORE you write the text!
@@ -27,7 +27,9 @@ text("TESTED MY PROGRAM",0,50);
 void draw() {
 
   // 7. Write the messsage "IT WORKED FIRST TIME" at the bottom of the meme
-
+textSize(45.3);
+if(mousePressed)
+text("IT WORKED FIRST TIME",-2,490); 
   
   // 8. Change the color of the text. Use the fill() command for this
   //    Put it BEFORE you write the text!
