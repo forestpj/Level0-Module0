@@ -10,9 +10,9 @@ public class FlamingNinjaStar {
 		int flameSize = 130;		//the length of the flaming arms
 		
 		// Make a new robot, and set it's pen down.
-
+		Robot irrdk = new Robot();
 		// Set the robot speed to 100
-		
+		irrdk.setSpeed(100)
 		// Set the robot window size to 800 x 800
 
 		// Use a for loop to repeat all of the code below ONE time (we will change this later)
