@@ -29,15 +29,18 @@ public class AwesomeOrNot {
 		// 6. If your variable is  1
         if(randomNum==1)  {
 			// -- tell the user whatever they entered is ok.
-        JOptionPane.showMessageDialog(null, "eh, thats ok I guess.");
+        JOptionPane.showMessageDialog(null, "Eh, thats ok I guess.");
         }
 		// 7. If your variable is  2
-	
+        if(randomNum==2)  {
 			// -- tell the user whatever they entered is boring.
-	
+        JOptionPane.showMessageDialog(null, "Ugh, thats so boring.");
+        }
 		// 8. If your variable is  3
-	
+        if(randomNum==3)  {
 			// -- invent your own message to give to the user (be nice).
-
+        	JOptionPane.showMessageDialog(null, "...ok...");
+        }
+        	
 }
 }
